@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			fixLayout()
+			  window.addEventListener('resize',fixLayout)
+			  function fixLayout() {
+			      const  width = window.screen.width;
+			      const fixWidth = 750
+			      const scale = width / fixWidth
+			      const meta = document.createElement('meta')
+			      meta.setAttribute('name','viewport')
+			      meta.setAttribute('content','width='+fixWidth+', initial-scale='+scale+', maximum-scale='+scale+', user-scalable=no')
+			      document.head.appendChild(meta)      
+			}
+		</script>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/bass.css">
+		<link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+		<script src="./js/index.js"></script>
+		<script src="./js/jquery-1.11.3.min.js"></script>
+		<script src="./js/swiper-3.4.2.jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-nav">
+				<img class="logo"  src="./images/LOGO.jpg" alt="">
+				<img class="menu" src="./images/menu-bar.jpg" alt="">
+			</div>
+		</div>
+		<div class="banner swiper-container">
+			<div class="move swiper-wrapper">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big84000.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big37006.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big39000.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big25011.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big21016.jpg' alt="">
+				<img class="swiper-slide" src='https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg' alt="">
+			</div>
+			<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+				<span class="swiper-pagination-bullet"></span>
+			</div>
+		</div>
+		<!-- course课程介绍开始 -->
+		<div class="course">
+			<div class="course-title">
+				<p >华章<span>MBA</span>课程</p>
+			</div>
+			<div class="course-introduce">
+				<ul>
+					<li>
+						<img src="./images/left.jpg" alt="">
+						<p>MBA提前面试</p>
+						<span>提前打算，更有优势</span>
+					</li>
+					<li>
+						<img src="./images/right.jpg" alt="">
+						<p>笔授课程系统</p>
+						<span>名师授课，保驾护航</span>
+					</li>
+				</ul>
+				<div class="counsel">免费预约试听</div>
+			</div>
+		</div>
+		<!-- course课程介绍结束 -->
+		<!-- characteristic课程特色开始 -->
+		<div class="characteristic">
+			<div class="characteristic-top">
+				<span class="characteristic-left">专注管理类联考辅导</span>
+				<span class="characteristic-right">咨询更多</span>
+			</div>
+			<div class="characteristic-bottom">
+				<div class="describe swiper-container">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+						 <div class="img"> 
+							 <img src="./images/kaoshi1.png" width="60" height="60" alt="">
+						</div>
+						<div class="title">
+							<span>院校入学测评</span>
+							<p>测一测我能否报考管理类 <br> 硕士</p>
+						</div>
+					  </div>
+					  <div class="swiper-slide">
+						<div class="img"> 
+							<img src="./images/kaoshi1.png" width="60" height="60" alt="">
+					   </div>
+					   <div class="title">
+						   <span>院校入学测评</span>
+						   <p>测一测我能否报考管理类 <br> 硕士</p>
+					   </div>
+					 </div>
+					 <div class="swiper-slide">
+						<div class="img"> 
+							<img src="./images/kaoshi1.png" width="60" height="60" alt="">
+					   </div>
+					   <div class="title">
+						   <span>院校入学测评</span>
+						   <p>测一测我能否报考管理类 <br> 硕士</p>
+					   </div>
+					 </div>
+					 <div class="swiper-slide">
+						<div class="img"> 
+							<img src="./images/kaoshi1.png" width="60" height="60" alt="">
+					   </div>
+					   <div class="title">
+						   <span>院校入学测评</span>
+						   <p>测一测我能否报考管理类 <br> 硕士</p>
+					   </div>
+					 </div>
+					 <div class="swiper-slide">
+						<div class="img"> 
+							<img src="./images/kaoshi1.png" width="60" height="60" alt="">
+					   </div>
+					   <div class="title">
+						   <span>院校入学测评</span>
+						   <p>测一测我能否报考管理类 <br> 硕士</p>
+					   </div>
+					 </div>
+					 <div class="swiper-slide">
+						<div class="img"> 
+							<img src="./images/kaoshi1.png" width="60" height="60" alt="">
+					   </div>
+					   <div class="title">
+						   <span>院校入学测评</span>
+						   <p>测一测我能否报考管理类 <br> 硕士</p>
+					   </div>
+					 </div>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<div class="teachers-main">
+			<div class="teachers-title">
+				<div class="teachers-top">
+					<span class="teachers-left">专注管理类联考辅导</span>
+					<span class="teachers-right">咨询更多</span>
+				</div>
+			</div>
+			<div class="teachers-describe">
+				<div class="teachers-container swiper-container">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+						<div class="teachers-slide">
+							<div class="left">
+								<div class="left-img"><img src="./images/m_03.png" alt=""></div>
+								<div class="left-title">全能-周洪桥</div>
+							</div>
+							<div class="right"><p>深圳华章创始人，MBA联 考实战专家；十六年以上 MBA等管理类联考辅导教 学资历；</p></div>
+							
+					 	 </div>
+					  </div>
+					  <div class="swiper-slide">
+						<div class="teachers-slide">
+							<div class="left">
+								<div class="left-img"><img src="./images/m_03.png" alt=""></div>
+								<div class="left-title">全能-周洪桥</div>
+							</div>
+							<div class="right"><p>深圳华章创始人，MBA联 考实战专家；十六年以上 MBA等管理类联考辅导教 学资历；</p></div>
+							
+					    </div>
+					  </div>
+					  <div class="swiper-slide">
+						<div class="teachers-slide">
+							<div class="left">
+								<div class="left-img"><img src="./images/m_03.png" alt=""></div>
+								<div class="left-title">全能-周洪桥</div>
+							</div>
+							<div class="right"><p>深圳华章创始人，MBA联 考实战专家；十六年以上 MBA等管理类联考辅导教 学资历；</p></div>
+							
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  question常见问题开始 -->
+		<div class="questions">
+			<div class="questions-title"><h3>常见问题</h3></div>
+			<div class="questions-describe">
+				<ul>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					<li><span></span><p>深圳 华章课程学费</p> </li>
+					
+				</ul>
+			</div>
+			<div class="quest"><p>咨询更多问题</p></div>
+		</div>
+		<!--  question常见问题开始 -->
+		<!-- "news-information资讯开始 -->
+		<div class="news-information">
+			<div class="news-top">
+				<span class="news-left">专注管理类联考辅导</span>
+				<span class="news-right">咨询更多</span>
+			</div>
+			<div class="new-bottom">
+				<div class="tabs"> <a href="#" class="active">新闻</a> <a href="#" >社会</a> <a href="#">军事</a> </div>
+  <div id="tabs-container" class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="content-slide">
+        <ul class="news-list">
+          <li>
+            <div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+            <div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+          </li>
+          <li>
+            <div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+            <div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+		  </li>
+		  <li>
+            <div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+            <div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+		  </li>
+		  <li>
+            <div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+            <div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+		  </li>
+		  <li>
+            <div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+            <div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+          </li>
+        </ul>
+        </div>
+       
+      </div>
+      <div class="swiper-slide">
+        <div class="content-slide">
+         <ul class="news-list">
+			<li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+        </ul>
+
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="content-slide"> 
+          <ul class="news-list">
+			<li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+			  <li>
+				<div  class="news-title"><p>工商管理专业和MBA有什么区别？</p></div>
+				<div class="news-img"><img src="./images/m-1_03.jpg" alt=""></div>
+			  </li>
+       </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			window.onload=function(){
+				
+    	var swiper = new Swiper('.banner', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    	});
+		var myDescribe = new Swiper('.describe',{
+		slidesPerView : 2,
+		spaceBetween : 10,
+		})
+		var teachers = new Swiper('.teachers-container',{
+			freeMode : true,
+			loop :false  ,
+			spaceBetween : 15,
+			slidesPerView : 'auto',
+		})
+		var tabsSwiper = new Swiper('#tabs-container',{
+    speed:500,
+    onSlideChangeStart: function(swiper){
+      $(".tabs .active").removeClass('active')
+      $(".tabs a").eq(swiper.activeIndex).addClass('active')  
+    }
+  })
+  $(".tabs a").on('touchstart click',function(e){
+    e.preventDefault()
+    $(".tabs .active").removeClass('active')
+    $(this).addClass('active')
+    tabsSwiper.slideTo( $(this).index() )
+  })
+  
+		
+	}
+		
+		</script>
+	</body>
+</html>
